@@ -299,6 +299,227 @@ body {
     background-color: #a10210;
     transform: scale(1.05);
 }
+/* gopalganj ki yatra */
+.yatra {
+  padding: 100px 20px;
+  background: #fffdf8;
+  text-align: center;
+}
+
+.yatra h2 {
+  font-size: 2.2rem;
+  color: #6b0f08;
+  margin-bottom: 10px;
+}
+.yatra-intro {
+  color: #444;
+  margin-bottom: 40px;
+}
+
+.yatra-flow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.yatra-level {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.yatra-box {
+  background: #fff;
+  border: 2px solid #d14a4a;
+  border-radius: 10px;
+  padding: 15px 25px;
+  font-weight: bold;
+  color: #a10210;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  transition: transform 0.3s;
+}
+.yatra-box:hover {
+  transform: scale(1.05);
+}
+
+.yatra-arrow {
+  font-size: 1.8rem;
+  color: #d14a4a;
+}
+
+.yatra-arrow.double {
+  margin-top: -15px;
+}
+
+.blocks {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.yatra-subblock {
+  background: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 20px;
+  width: 260px;
+  text-align: left;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.yatra-subblock h3 {
+  color: #6b0f08;
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+  border-bottom: 2px solid #d14a4a;
+  padding-bottom: 6px;
+}
+
+.yatra-subblock ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.yatra-subblock li {
+  padding: 6px 0;
+  font-size: 1rem;
+  color: #333;
+}
+.block-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 15px;
+}
+
+.block-btn {
+  display: inline-block;
+  padding: 10px 18px;
+  background: #d14a4a;
+  color: #fff;
+  font-size: 0.95rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.block-btn:hover {
+  background: #a10210;
+  transform: translateY(-2px);
+}
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: #f9fafb;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* Navbar */
+nav {
+  background: #1e3a8a; /* dark blue */
+  padding: 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main Content */
+main.block-detail-page {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #1e3a8a;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #2563eb; /* blue shade */
+  border-left: 5px solid #e2e3e7;
+  padding-left: 0.5rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #111;
+}
+
+/* Places Section */
+.place {
+  background: #fff;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+.place:hover {
+  transform: translateY(-4px);
+}
+.place p {
+  margin-bottom: 0.5rem;
+}
+.place img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 12px;
+  margin-top: 0.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  color: #555;
+  font-size: 0.9rem;
+  border-top: 1px solid #ddd;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  main.block-detail-page {
+    padding: 1rem;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  .place img {
+    max-width: 100%;
+  }
+}
+
+
 
 /* Footer */
 .footer {
